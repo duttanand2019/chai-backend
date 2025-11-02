@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/twitt', (req,res) =>{
+app.get('/twitter', (req,res) =>{
     res.send('hiteshdotcom')
 })
 app.get('/login',(req,res) =>{
